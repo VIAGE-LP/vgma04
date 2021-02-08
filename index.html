@@ -64,13 +64,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/buybtn.css" type="text/css" media="all"> -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/nav.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120013759-3"></script>
@@ -304,7 +306,8 @@
             <!-- ▼自由編集箇所▼ -->
             <div class="main">
                 <div class="PC">
-                    <img src="./img/01.png" alt="">
+                    <img src="./img/01_banner.png" alt="">
+                    <img src="./img/01_ver2.png" alt="">
                     <img class="anniversary_1" src="./img/01_ver1.png" alt="">
                     <div class="anniversary_2" style="display:none">
                         <img src="./img/detail.png" alt="">
@@ -313,7 +316,6 @@
                     <img src="./img/ig_title.jpg" alt="" style="width:70%;">
                 </div>
                 <div class="SP">
-                    <img src="./img/SP/SP_01.jpg" alt="">
                     <img class="SP_anniversary_1" src="./img/SP/SP_01_banner.png" alt="">
                     <div class="SP_anniversary_2" style="display:none">
                         <img src="./img/SP/SP_detail.png" alt="">
@@ -343,7 +345,7 @@
                 </section>
                 <div class="PC">
                     <div class="offerbox">
-                        <img src="./img/05_anniversary.jpg" style="width:70%;" alt="">
+                        <img src="./img/05.jpg" style="width:70%;" alt="">
                         <a href="#size">
                             <img class="offerbtn lozad" id="buy01" src="./img/offerbtn.jpg" alt="">
                         </a>
@@ -352,7 +354,7 @@
                     <img src="./img/07.jpg" style="width:70%;" alt="">
                     <img src="./img/08.jpg" style="width:70%;" alt="">
                     <div class="offerbox">
-                        <img src="./img/05_anniversary.jpg" style="width:70%;" alt="">
+                        <img src="./img/05.jpg" style="width:70%;" alt="">
                         <a href="#size">
                             <img class="offerbtn lozad" id="buy02" src="./img/offerbtn.jpg" alt="">
                         </a>
@@ -362,7 +364,7 @@
                     <img src="./img/12.jpg" style="width:70%;" alt="">
                     <img src="./img/13.jpg" style="width:70%;" alt="">
                     <div class="offerbox">
-                        <img src="./img/05_anniversary.jpg" style="width:70%;" alt="">
+                        <img src="./img/05.jpg" style="width:70%;" alt="">
                         <a href="#size">
                             <img class="offerbtn lozad" id="buy03" src="./img/offerbtn.jpg" alt="">
                         </a>
@@ -377,7 +379,7 @@
                 </div>
                 <div class="SP">
                     <div class="offerbox_m">
-                        <img src="./img/SP/SP_05_anniversary.jpg" alt="">
+                        <img src="./img/SP/SP_05.jpg" alt="">
                         <!-- <a href="#size">
                             <img class="offerbtn_m offerbtn_m_1 lozad" id="buy01-1" src="./img/offerbtn.jpg" alt="">
                         </a> -->
@@ -389,7 +391,7 @@
                     <img src="./img/SP/SP_07.jpg" alt="">
                     <img src="./img/SP/SP_08.jpg" alt="">
                     <div class="offerbox_m">
-                        <img src="./img/SP/SP_05_anniversary.jpg" alt="">
+                        <img src="./img/SP/SP_05.jpg" alt="">
                         <!-- <a href="#size">
                             <img class="offerbtn_m offerbtn_m_1 lozad" id="buy02-1" src="./img/offerbtn.jpg" alt="">
                         </a> -->
@@ -403,7 +405,7 @@
                     <img src="./img/SP/SP_13.jpg" alt="">
                     <img src="./img/SP/SP_14.jpg" alt="">
                     <div class="offerbox_m">
-                        <img src="./img/SP/SP_05_anniversary.jpg" alt="">
+                        <img src="./img/SP/SP_05.jpg" alt="">
                         <!-- <a href="#size">
                             <img class="offerbtn_m offerbtn_m_1 lozad" id="buy03-1" src="./img/offerbtn.jpg" alt="">
                         </a> -->
@@ -440,6 +442,22 @@
                     </div>
                 </div>
 
+                <section class="sns_btn mt-3">
+                    <ul>
+                        <li>
+                            <div class="PC">
+                                <a href="https://line.me/R/ti/p/%40fhl1857j" target="blank">
+                                    <img src="./img/line btn.png" alt="加入好友" style="width:55%">
+                                </a>
+                            </div>
+                            <div class="SP">
+                                <a href="https://line.me/R/oaMessage/@fhl1857j/?獲取更多專屬服務" target="blank">
+                                    <img src="./img/SP_line btn.png" alt="加入好友" style="width:85%">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
                 <div class="buybtn">
                     <a href="#size">
                         <img src="img/gotop.png" title="" class="lozad" id="buynow">
@@ -540,6 +558,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src='js/user_data.js'></script>
+    <script src='js/ig.js'></script>
     <script src="js/all.js"></script>
 </body>
 
